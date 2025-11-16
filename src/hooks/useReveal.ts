@@ -15,15 +15,9 @@ export const useReveal = (options?: IntersectionObserverInit) => {
       return
     }
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true)
-          observer.unobserve(entry.target)
-        }
-      },
-      options ?? DEFAULT_OPTIONS,
-    )
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting)
+    }, options ?? DEFAULT_OPTIONS)
 
     observer.observe(target)
     return () => observer.disconnect()

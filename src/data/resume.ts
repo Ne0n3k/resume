@@ -75,6 +75,12 @@ const languages: LanguageSkill[] = [
 
 const projects: Project[] = [
   {
+    name: 'Portfolio CI/CD Platform',
+    summary:
+      'React CV site with Vitest coverage, and GitHub Actions workflow that gates lint, tests, and Vite builds before auto-deploying to GitHub Pages.',
+    technologies: ['React', 'TypeScript', 'Vitest', 'GitHub Actions'],
+  },
+  {
     name: 'Shapley Mining',
     summary:
       'Notebook pipeline that converts process trees into logical specifications, runs optional Vampire proofs, and performs Shapley-value analysis with CSV, graph, and importance-map exports.',
