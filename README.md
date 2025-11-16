@@ -9,6 +9,7 @@ Responsive landing page with the full CV—contact details, profile, experience,
 - **Scroll animations** – `useReveal` + `IntersectionObserver` power subtle entrance motions for every card.
 - **Contact-first sidebar** – dedicated component for name, GitHub, LinkedIn, phone, and email with automatic protocol handling.
 - **Responsive design** – CSS grid + fluid spacing adjust seamlessly down to mobile.
+- **CI/CD-ready** – GitHub Actions workflow runs lint, Vitest suites, build, and GitHub Pages deploy on every push to `main`.
 
 ## Tech Stack
 
