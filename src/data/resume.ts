@@ -12,7 +12,7 @@ import type {
 const contact: ContactInfo = {
   name: 'Jakub Błażowski',
   github: 'https://github.com/Ne0n3k',
-  linkedin: 'www.linkedin.com/in/jakub-blazowski-828b43300',
+  linkedin: 'https://www.linkedin.com/in/jakub-blazowski-828b43300',
   phone: '+48 697 461 603',
   email: 'jak.blazowski@gmail.com',
 }
